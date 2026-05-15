@@ -6,12 +6,12 @@
     </radialGradient>
   </defs>
 
-  <symbol id="icon-back-mobile" viewBox="0 0 24 24">
-    <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6842" d="M21.615 0.655l-20.211 16.336 20.211 13.979"></path>
+  <symbol id="icon-back-mobile" viewBox="0 0 24 32">
+    <path fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6842" d="M21.615 0.655l-20.211 16.336 20.211 13.979"></path>
   </symbol>
 
   <symbol id="icon-back" viewBox="0 0 30 32">
-    <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.2" d="M25.143 0.28l-24.511 16.877 24.511 14.442"></path>
+    <path fill="none" stroke="currentColor" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.2" d="M25.143 0.28l-24.511 16.877 24.511 14.442"></path>
   </symbol>
 
   <symbol id="icon-burger" viewBox="0 0 41 32">
