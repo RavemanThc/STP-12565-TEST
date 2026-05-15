@@ -1,0 +1,147 @@
+.policies-terms-body {
+  background: radial-gradient(
+    34.59% 62.78% at 50% 40.11%,
+    var(--radial-gradient-from-to)
+  );
+  margin-top: 33px;
+}
+
+.policies-terms-wrapper {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.policies-terms-title {
+  font-family: var(--fredoka-font-family);
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 16px;
+  text-shadow:
+    -1px -1px 0 var(--stroke-dark),
+    1px -1px 0 var(--stroke-dark),
+    -1px 1px 0 var(--stroke-dark),
+    1px 1px 0 var(--stroke-dark);
+}
+
+.terms-title {
+  font-size: 32px;
+}
+
+.policies-terms-desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.35;
+  color: var(--body-privacy);
+}
+
+.terms-desc {
+  font-weight: 400;
+}
+
+.policies-terms-desc-end {
+  margin-bottom: 16px;
+}
+
+.policies-terms-subtitle {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-shadow:
+    -1px -1px 0 var(--stroke-dark),
+    1px -1px 0 var(--stroke-dark),
+    -1px 1px 0 var(--stroke-dark),
+    1px 1px 0 var(--stroke-dark);
+}
+.terms-subtitle {
+  font-family: var(--fredoka-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-shadow:
+    -1px -1px 0 var(--stroke-dark),
+    1px -1px 0 var(--stroke-dark),
+    -1px 1px 0 var(--stroke-dark),
+    1px 1px 0 var(--stroke-dark);
+}
+
+.policies-terms-definitions-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.policies-terms-item {
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+
+.policies-terms-ul {
+  list-style-type: disc;
+  padding-left: 28px;
+}
+
+.policies-terms-domain {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #76caff;
+}
+
+@media (max-width: 340px) {
+  .policies-terms-title {
+    font-size: 24px;
+  }
+
+  .policies-terms-subtitle {
+    font-size: 18px;
+  }
+
+  .policies-terms-desc {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .policies-terms-body {
+    margin-top: 98px;
+  }
+  .policies-terms-title {
+    font-size: 80px;
+    margin-bottom: 24px;
+  }
+
+  .policies-terms-desc {
+    font-size: 32px;
+    line-height: 1.6;
+  }
+
+  .policies-terms-desc-end {
+    margin-bottom: 24px;
+  }
+
+  .policies-terms-subtitle {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .terms-subtitle {
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
+
+  .policies-terms-definitions-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .policies-terms-item {
+    font-size: 32px;
+  }
+
+  .policies-terms-ul {
+    padding-left: 46px;
+  }
+}

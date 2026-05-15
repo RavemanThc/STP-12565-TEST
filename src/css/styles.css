@@ -1,0 +1,26 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* Common styles */
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
+
+/* Sections style */
+@import url('./header.css');
+
+@import url('./footer.css');
+@import url('./mobile-menu.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./how.css');
+@import url('./features.css');
+@import url('./why.css');
+@import url('./gallery.css');
+@import url('./faq.css');
+@import url('./reviews.css');
+@import url('./header-terms.css');

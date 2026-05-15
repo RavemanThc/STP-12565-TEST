@@ -1,0 +1,239 @@
+.how {
+  position: relative;
+  background: radial-gradient(
+    105.66% 54.53% at 54.9% 26.17%,
+    #7858ee 0%,
+    #453288 100%
+  );
+  padding-top: 4px;
+  scroll-margin-top: 33px;
+  height: 826px;
+}
+.how-wrap {
+  position: relative;
+  height: 826px;
+}
+
+.how-title {
+  font-size: 24px;
+  font-family: var(--fredoka-font-family);
+  font-weight: 700;
+
+  text-shadow:
+    /* Диагонали (1.5px для плотности) */
+    1.5px 1.5px 0 var(--stroke-dark),
+    -1.5px 1.5px 0 var(--stroke-dark),
+    1.5px -1.5px 0 var(--stroke-dark),
+    -1.5px -1.5px 0 var(--stroke-dark),
+    /* Оси (строго 2px) */ 2px 0px 0 var(--stroke-dark),
+    -2px 0px 0 var(--stroke-dark),
+    0px 2px 0 var(--stroke-dark),
+    0px -2px 0 var(--stroke-dark);
+  text-align: center;
+}
+.how-subtitle {
+  font-family: var(--nunito-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  color: #fffdfd;
+  text-align: center;
+  filter: drop-shadow(1px 0 0 var(--stroke-dark))
+    drop-shadow(-1px 0 0 var(--stroke-dark))
+    drop-shadow(0 1px 0 var(--stroke-dark))
+    drop-shadow(0 -1px 0 var(--stroke-dark));
+  margin-bottom: 28px;
+}
+.how-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-box-title {
+  font-family: var(--nunito-font-family);
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  filter: drop-shadow(1px 0 0 var(--stroke-dark))
+    drop-shadow(-1px 0 0 var(--stroke-dark))
+    drop-shadow(0 1px 0 var(--stroke-dark))
+    drop-shadow(0 -1px 0 var(--stroke-dark));
+}
+.how-box-subtitle {
+  font-family: var(--quicksand-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  width: 124px;
+}
+
+.how-box img {
+  margin-bottom: 12px;
+}
+.how-match {
+  position: absolute;
+  top: 83px;
+  left: 19px;
+}
+.how-build {
+  position: absolute;
+  top: 178px;
+  right: 32px;
+}
+.how-comp {
+  position: absolute;
+  top: 334px;
+  left: 19px;
+}
+.how-use {
+  position: absolute;
+  bottom: 208px;
+  right: 40px;
+}
+.how-adv {
+  position: absolute;
+  bottom: 47px;
+  left: 19px;
+}
+.how-pic {
+  z-index: 2;
+}
+.how-line1 {
+  position: absolute;
+  top: 131px;
+  right: 84px;
+  min-width: 64px;
+}
+.how-line2 {
+  position: absolute;
+  top: 200px;
+  left: 115px;
+}
+.how-line3 {
+  position: absolute;
+  bottom: 356px;
+  right: 64px;
+}
+.how-line4 {
+  position: absolute;
+  bottom: 210px;
+  left: 79px;
+}
+
+@media screen and (min-width: 1440px) {
+  .how {
+    width: 100%;
+    background: radial-gradient(
+      105.66% 54.53% at 54.9% 26.17%,
+      #7858ee 0%,
+      #453288 100%
+    );
+    padding-top: 34px;
+    height: 1003px;
+    scroll-margin-top: 98px;
+  }
+  .how-title {
+    font-size: 60px;
+    text-shadow:
+      4px 0 0 var(--stroke-dark),
+      -4px 0 0 var(--stroke-dark),
+      0 4px 0 var(--stroke-dark),
+      0 -4px 0 var(--stroke-dark),
+      3px 3px 0 var(--stroke-dark),
+      -3px 3px 0 var(--stroke-dark),
+      3px -3px 0 var(--stroke-dark),
+      -3px -3px 0 var(--stroke-dark),
+      4px 2px 0 var(--stroke-dark),
+      4px -2px 0 var(--stroke-dark),
+      -4px 2px 0 var(--stroke-dark),
+      -4px -2px 0 var(--stroke-dark),
+      2px 4px 0 var(--stroke-dark),
+      -2px 4px 0 var(--stroke-dark),
+      2px -4px 0 var(--stroke-dark),
+      -2px -4px 0 var(--stroke-dark);
+
+    margin-bottom: 10px;
+  }
+  .how-subtitle {
+    font-size: 32px;
+    font-weight: 700;
+
+    -webkit-text-stroke: 2px var(--stroke-dark);
+    paint-order: stroke fill;
+    -webkit-font-smoothing: antialiased;
+  }
+  .how-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .how-box-title {
+    font-family: var(--nunito-font-family);
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    -webkit-text-stroke: 2px var(--stroke-dark);
+    paint-order: stroke fill;
+    -webkit-font-smoothing: antialiased;
+  }
+  .how-box-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    width: 245px;
+  }
+  .how-box img {
+    margin-bottom: 22px;
+  }
+  .how-match {
+    position: absolute;
+    top: 216px;
+    left: 73px;
+  }
+  .how-build {
+    position: absolute;
+    top: 308px;
+    left: 0;
+  }
+  .how-comp {
+    position: absolute;
+    top: 198px;
+    left: 1005px;
+  }
+  .how-use {
+    position: absolute;
+    bottom: 88px;
+    right: 299px;
+  }
+  .how-adv {
+    position: absolute;
+    bottom: 145px;
+    left: 238px;
+  }
+  .how-line1 {
+    position: absolute;
+    top: 287px;
+    left: 267px;
+  }
+  .how-line2 {
+    position: absolute;
+    top: 338px;
+    left: 770px;
+  }
+  .how-line3 {
+    position: absolute;
+    bottom: 252px;
+    right: 72px;
+  }
+  .how-line4 {
+    position: absolute;
+    bottom: 210px;
+    left: 440px;
+  }
+  .how-wrap {
+    height: 1003px;
+  }
+}

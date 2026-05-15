@@ -1,0 +1,178 @@
+.hero-section {
+  margin-top: 33px;
+  background-image: url('../img/hero/background-mobile.png');
+  background-repeat: no-repeat;
+background-position: center clamp(20%, 10vw, 80%);  background-size: cover;
+  height: 208px;
+}
+.hero-box {
+
+  padding-top: 12px;
+  padding-bottom: 31px;
+}
+/* Retina */
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url('../img/hero/background-mobile@2x.png');
+  }
+}
+.hero-googleplay-background {
+  width: 120px;
+  height: 33px;
+  background-color: #000;
+  border-radius: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+
+  cursor: pointer;
+  transition:
+    background-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+/* hover */
+.hero-googleplay-background:hover {
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+}
+
+/* active */
+.hero-googleplay-background:active {
+  background-color: #5e5d5d;
+  transform: scale(0.98);
+}
+
+/* keyboard focus */
+.hero-googleplay-background:focus {
+  outline: none;
+  box-shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.6),
+    0 0 12px rgba(255, 255, 255, 0.35);
+}
+.hero-playmarket-text {
+  font-family: var(--google-sans-flex-font-family);
+  font-weight: 400;
+  font-size: 12px;
+}
+.hero-google-text {
+  font-family: var(--google-sans-flex-font-family);
+  font-weight: 600;
+  font-size: 14px;
+}
+.hero-play-logo {
+  width: 16px;
+  height: 18px;
+}
+.hero-title {
+  font-size: 26px;
+  font-family: var(--fredoka-font-family);
+  font-weight: 700;
+  width: 254px;
+  color: #fff;
+  text-align: left;
+
+  text-shadow:
+    1.5px 1.5px 0 var(--stroke-dark),
+    -1.5px 1.5px 0 var(--stroke-dark),
+    1.5px -1.5px 0 var(--stroke-dark),
+    -1.5px -1.5px 0 var(--stroke-dark),
+    2px 0px 0 var(--stroke-dark),
+    -2px 0px 0 var(--stroke-dark),
+    0px 2px 0 var(--stroke-dark),
+    0px -2px 0 var(--stroke-dark);
+  margin-bottom: 10px;
+}
+.hero-text {
+  font-family: var(--nunito-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+
+  filter: drop-shadow(1px 0 0 var(--stroke-dark))
+    drop-shadow(-1px 0 0 var(--stroke-dark))
+    drop-shadow(0 1px 0 var(--stroke-dark))
+    drop-shadow(0 -1px 0 var(--stroke-dark));
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    margin-top: 98px;
+    background-image: url('../img/hero/background.png');
+background-position: center;
+
+    height: 610px;
+  }
+  .hero-box {
+    padding-top: 101px;
+    padding-bottom: 79px;
+  }
+  .hero-googleplay-background {
+    width: 272px;
+    height: 84px;
+    border-radius: 8px;
+
+    gap: 12px;
+  }
+  .hero-playmarket-text {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .hero-google-text {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .hero-play-logo {
+    width: 32px;
+    height: 35px;
+  }
+  .hero-title {
+    font-size: 80px;
+    font-family: var(--fredoka-font-family);
+    font-weight: 700;
+
+    color: #fff;
+    text-align: left;
+    width: 872px;
+    text-shadow:
+      4px 0 0 var(--stroke-dark),
+      -4px 0 0 var(--stroke-dark),
+      0 4px 0 var(--stroke-dark),
+      0 -4px 0 var(--stroke-dark),
+      3px 3px 0 var(--stroke-dark),
+      -3px 3px 0 var(--stroke-dark),
+      3px -3px 0 var(--stroke-dark),
+      -3px -3px 0 var(--stroke-dark),
+      4px 2px 0 var(--stroke-dark),
+      4px -2px 0 var(--stroke-dark),
+      -4px 2px 0 var(--stroke-dark),
+      -4px -2px 0 var(--stroke-dark),
+      2px 4px 0 var(--stroke-dark),
+      -2px 4px 0 var(--stroke-dark),
+      2px -4px 0 var(--stroke-dark),
+      -2px -4px 0 var(--stroke-dark);
+
+    margin-bottom: 32px;
+  }
+  .hero-text {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 54px;
+    -webkit-text-stroke: 2px var(--stroke-dark);
+    paint-order: stroke fill;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+@media screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1440px) and (min-resolution: 192dpi),
+  screen and (min-width: 1440px) and (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url('../img/hero/background@2x.png');
+  }
+}

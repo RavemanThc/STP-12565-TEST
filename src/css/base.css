@@ -1,0 +1,60 @@
+:root {
+  /* Fonts */
+  --nunito-font-family: "Nunito", sans-serif;
+  --quicksand-font-family: "Quicksand", sans-serif;
+  --fredoka-font-family: "Fredoka", sans-serif;
+  --google-sans-flex-font-family: "Google Sans Flex", sans-serif;
+
+  /* Colors */
+  --stroke-dark: #493479;
+  --stroke-3: rgba(255, 184, 0, 0.5);
+  --background: rgba(120, 88, 238, 0.76);
+  --stroke-card: #4a5edb;
+  --body-privacy: #e4e4e4;
+  --body-mobile: #f9f9f9;
+
+  /* Background from-to values (for background gradients) */
+  --radial-gradient-from-to: #7858ee 0%, #453288 100%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background: radial-gradient(
+    34.59% 62.78% at 50% 40.11%,
+    #7858ee 0%,
+    #453288 450%
+  );
+  font-family:
+    var(--nunito-font-family),
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: #fff;
+  display: block;
+  min-width: 100vw;
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+main:has(.back-link) {
+  text-align: center;
+}
+
+html.menu-open,
+html.menu-open body {
+  overflow: hidden;
+  height: 100%;
+}
